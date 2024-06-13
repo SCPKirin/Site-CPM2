@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+    }
+    .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 850px;
+        height: 550px;
+    }
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+        color: black;
+    }
+</style>
+<body>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="contato.html">Contato</a>
+    </div>
+
+    <img src="velas template.jpg">
+
+    <div class="Primeira parte">
+        <h1>Subspécie de anão é encontrado no sul do Brasil! A subspécie encontrada, categorizada como Guilherme, estava na cidade de Curitiba no dia 07/05. </h1>
+        <a href="javascript:void(0);" onclick="showAlert()">Veja a notícia clicando aqui</a>
+    </div>
+
+    <div class="Primeira parte">
+        <h1>Mais notícias em breve!</h1>
+    </div>
+
+    <script>
+        function showAlert() {
+            alert("Esta é uma notícia importante!");
+        }
+    </script>
+</body>
+</html>
